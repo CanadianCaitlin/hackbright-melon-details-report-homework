@@ -14,14 +14,18 @@
 #     weight: None
 #     rind_color: None
 
+from melons import melons
 
+def melon_info(melons):
+    for melon_name, melon_properties in melons.items():
+        print(melon_name)
 
+        for melon_properties, value in melon_properties.items():
+            print(f"{melon_properties} : {value}")
 
-
-
-
-
-
+        print("-----------")
+    
+print(melon_info(melons))
 
 # from melons import melon_names, melon_seedlessness, melon_prices
 
