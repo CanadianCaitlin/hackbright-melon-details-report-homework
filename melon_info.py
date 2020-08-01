@@ -1,5 +1,16 @@
 """Print out all the melons in our inventory."""
 
+# PLAN
+# create for loop to loop through keys in the 3 dictionaries in melons.py
+
+# Ideal Output:
+# CASABA
+#     seedless: False
+#     price: 2.5
+#     flesh_color: None
+#     weight: None
+#     rind_color: None
+
 
 from melons import melon_names, melon_seedlessness, melon_prices
 
